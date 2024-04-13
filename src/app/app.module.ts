@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { InputTextModule } from 'primeng/inputtext';
 import { CheckboxModule } from 'primeng/checkbox';
 import { ButtonModule } from 'primeng/button';
+import { TablematchComponent } from './tablematch/tablematch.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ButtonModule } from 'primeng/button';
     SignUpComponent,
     ForgotPasswordComponent,
     VerifyEmailComponent,
+    TablematchComponent,
   ],
   imports: [
     BrowserModule,
